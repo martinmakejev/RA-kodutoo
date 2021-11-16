@@ -1,6 +1,5 @@
 # Rakendusarhitektuurid kodutöö
 
-# NB! Tegu on täiesti suvalise ja pooliku html-ga!
 
 Võrdluseks ma valisin AWS (Amazon Web Services) ja GitHub Pages. AWS ja GitHub Pages on klassifitseeritud nagu pilve hoidla ja staatilise web lehekülje hostid.
 GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu pangaandmeid.
@@ -29,6 +28,8 @@ GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu
   #### Võtab aega, et teha bucketid korda
   #### Vajab pangaandmeid
  
+# NB! Tegu on täiesti suvalise ja pooliku html-ga!
+
 ## Lingid:
 ### GitHub Pages: https://martinmakejev.github.io/RA-kodutoo/index.html#
 ### AWS: https://elasticbeanstalk-us-east-2-582360987070.s3.us-east-2.amazonaws.com/index.html
