@@ -12,6 +12,7 @@ GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu
  ### Miinused:
  #### Ei ole võimalik teostada HTTP ümbersuunamisi
  #### Toetab ainult Jekyll-i
+ #### Kood on open source
  
  
 ## AWS (Amazon Web Services)
