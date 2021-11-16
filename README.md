@@ -3,7 +3,7 @@
 Võrdluseks ma valisin AWS (Amazon Web Services) ja GitHub Pages. AWS ja GitHub Pages on klassifitseeritud nagu pilve hoidla ja staatilise web lehekülje hostid.
 GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu pangaandmeid.
 
-## GitHub Pages
+## GitHub Pages 
 ### Plussid:
  #### Väga kerge ja kiire seadistus
  #### Täiesti tasuta
@@ -26,3 +26,6 @@ GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu
   #### Võtab aege, et seadistada permissionid õigeks
   #### Võtab aega, et teha bucketid korda
   #### Vajab pangaandmeid
+ 
+## Lingid:
+### GitHub Pages: https://martinmakejev.github.io/RA-kodutoo/index.html#
