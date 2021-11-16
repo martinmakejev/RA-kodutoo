@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Avaleht</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Eripakkumised<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Laenud ja kindlustus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Teenindus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak</a>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Otsing" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Otsi</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 ">
+              <div class="col-12 avalehtuudised">
+                <div id="carousel" class="carousel slide" data-ride="carousel" style="width: 500px;">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images/bmw.jpg" alt="First slide" style="height:300px">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/toyota.jpg" alt="Second slide" style="height:300px">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/dodge.jpg" alt="Third slide" style="height:300px">
+                    </div>
+                  </div>
+                </div>
+              <h1>Kasutatud autod (123)</h1>
+              <p>Suure valiku hästi hoitud ja kontrollitud kasutatud autosid leiad Amservist. Vali endale sobilik välja!</p>
+                <p>Leitud <strong>123</strong> mudelit</p>   
+                <select id="sort" name="sort">
+                  <option value="Uuemad">Uuemad enne</option>
+                  <option value="Vanem">Vanemad enne</option>
+                  <option value="kallim">Kallim enne</option>
+                  <option value="odavam">Odavam enne</option>
+                </select>            
+              </div>
+              <div class="container" id="taust">
+              <div class="card-columns">
+               <div class="card">
+                 <img src="images/toyota_avensis.jpg" class="card-img-top img-responsive w-100">
+                <div class="card-body">
+                 <h5>Toyota Avensis 2015</h5>
+                 <p>2015, 129340</p>
+                 <p>Manuaal, Diisel, 94 kW</p>
+                 <p>Esivedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">22 356€</button>
+                </div>
+               </div>
+               <div class="card">
+                 <img src="images/volvo_xc90.jpg" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Volvo XC90 2012</h5>
+                 <p>2012, 273000</p>
+                 <p>Automaat, Diisel, 147 kW</p>
+                 <p>Nelikvedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">12 569€</button>
+                </div>
+               </div>
+               <div class="card">
+                <img src="images/lexus_nx.jpg" class="card-img-top img-responsive w-100">
+                <div class="card-body">
+                 <h5>Lexus NX 300H 2015</h5>
+                 <p>2015, 140000</p>
+                 <p>Automaat, Hübriid (bensiin/elekter), 114 kW</p>
+                 <p>Nelikvedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">18 695€</button>
+               </div>
+               </div>
+               <div class="card">
+                 <img src="images/supra.png" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Toyota Supra 2019</h5>
+                 <p>2019, 22400</p>
+                 <p>Automaat, Bensiin, 250 kW</p>
+                 <p>Tagavedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">34 569€</button>
+               </div>
+               </div>
+               <div class="card">
+                 <img src="images/lexus_gs.jpg" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Lexus GS 350h</h5>
+                 <p>2011, 177000</p>
+                 <p>Automaat, Hübriid (bensiin/elekter), 2118 kW</p>
+                 <p>Tagavedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">16 789€</button>
+               </div>
+               </div>
+               <div class="card">
+                 <img src="images/nissan_q.jpg" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Nissan Qashqai</h5>
+                 <p>2019, 79900</p>
+                 <p>Automaat, Bensiin, 117 kW</p>
+                 <p> Esivedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">21 329€</button>
+               </div>
+               </div>
+               <div class="card">
+                 <img src="images/c220.jpg" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Mercedes-Benz C220</h5>
+                 <p>2016, 129212</p>
+                 <p>Automaat, Diisel, 125 kW</p>
+                 <p>Tagavedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">20 569€</button>
+               </div>
+               </div>
+               <div class="card">
+                 <img src="images/golf.jpg" class="card-img-top img-responsive w-100">
+                 <div class="card-body">
+                 <h5>Volkswagen Golf</h5>
+                 <p>2017, 85646</p>
+                 <p>Manuaal, Diisel, 85 kW</p>
+                 <p>Esivedu</p>
+                 <button type="button" class="btn btn-primary btn-sm">12 200€</button>
+               </div>
+               </div>        
+                </div>
+              </div>
+              <div class="col-12 lehekülg">
+                <nav aria-label="...">
+                  <ul class="pagination pagination-lg justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  </ul>
+                </nav> 
+              </div>
+              <div class="col-12">
+                <div class="container">
+                  <form action="action_page.php">
+                
+                    <label for="epnimi">Ees- ja Perekonnanimi</label>
+                    <input type="text" id="epnimi" name="espenimi" placeholder="Teie nimi...">
+                    <label for="mail">Maili aadress</label>
+                    <input type="text" id="mail" name="email" placeholder="Teie maili aadress...">
+                    <label for="riik">Riik</label>
+                    <select id="riik" name="riik">
+                      <option value="eesti">Eesti</option>
+                      <option value="aafrika">Läti</option>
+                      <option value="uus-meremaa">Leedu</option>
+                    </select>
+                
+                    <label for="teema">Teema</label>
+                    <textarea id="teema" name="teema" placeholder="Millest te olete huvitatud?" style="height:200px"></textarea>
+                    <button type="button" class="btn btn-primary btn-sm">Sisesta</button>
+                
+                  </form>
+                </div>
+              </div>
+            </div>  
+          </div>           
+        </div>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

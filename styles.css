@@ -1,0 +1,48 @@
+body {
+    background-color:  #ffffff;
+    color: #000000;
+}
+
+#vasaktulp h4 {
+    padding-top: 5px;
+}
+
+.lehekülg {
+    text-align: center;
+   border-radius: 7px;
+   margin-bottom: 15px;
+   padding-bottom: 5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+#paremtulp h4 {
+    padding-top: 5px;
+}
+#footer {
+    background-color: #1e252b;
+}
+img{
+    width: 297px;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+.card{
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;    
+}
+.carousel-inner img {
+    margin: auto;
+  }
+
+#taust  {
+    background-color: lightgray;
+    border-radius: 1%;
+}
