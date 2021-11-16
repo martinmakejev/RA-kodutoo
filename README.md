@@ -5,23 +5,23 @@ GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu
 
 ## GitHub Pages
 ### Plussid:
- Väga kerge ja kiire seadistus
- Täiesti tasuta
- Kood tuleb otse GitHubi repost
+ #### Väga kerge ja kiire seadistus
+ #### Täiesti tasuta
+ #### Kood tuleb otse GitHubi repost
  
  ### Miinused:
- Ei ole võimalik teostada HTTP ümbersuunamisi
- Toetab ainult Jekyll-i
+ #### Ei ole võimalik teostada HTTP ümbersuunamisi
+ #### Toetab ainult Jekyll-i
  
  
 ## AWS (Amazon Web Services)
 ### Plussid:
- Usaldusväärne
- Kuigi see ei ole tasuta, aga see on ikkagist üsna odav
- Kerge
- Funktsionaalsus on palju suurem kui GitHub Pages-il
+ #### Usaldusväärne
+ #### Kuigi see ei ole tasuta, aga see on ikkagist üsna odav
+ #### Kerge
+ #### Funktsionaalsus on palju suurem kui GitHub Pages-il
 
 ### Miinused:
-  Võtab aege, et seadistada permissionid õigeks
-  Võtab aega, et teha bucketid korda
-  Vajab pangaandmeid
+  #### Võtab aege, et seadistada permissionid õigeks
+  #### Võtab aega, et teha bucketid korda
+  #### Vajab pangaandmeid
