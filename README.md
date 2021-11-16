@@ -29,3 +29,4 @@ GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu
  
 ## Lingid:
 ### GitHub Pages: https://martinmakejev.github.io/RA-kodutoo/index.html#
+### AWS: https://elasticbeanstalk-us-east-2-582360987070.s3.us-east-2.amazonaws.com/index.html
