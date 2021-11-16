@@ -1,6 +1,6 @@
 # Rakendusarhitektuurid kodutöö
 
-#NB! Tegu on täiesti suvalise ja pooliku html-ga!
+# NB! Tegu on täiesti suvalise ja pooliku html-ga!
 
 Võrdluseks ma valisin AWS (Amazon Web Services) ja GitHub Pages. AWS ja GitHub Pages on klassifitseeritud nagu pilve hoidla ja staatilise web lehekülje hostid.
 GitHub Pages-it oli setup-da kordades kergem kui  AWS-i ning see ei vajanud minu pangaandmeid.
